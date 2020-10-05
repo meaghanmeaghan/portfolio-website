@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+}
+
+div {
+    cursor: crosshair;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #000000;
+    color: #FFFFFF;
+}
+
+* {
+    color:#FFFFFF;
+    text-decoration: none;
+    font-size: 100px;
+    line-height: 125%;
+    font-weight: bold;
+    cursor: crosshair;
+  }
+
+.content {
+    flex: 1 0 auto;
+    margin: 100px auto;
+    max-width: 800px;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100px;
+    margin-bottom: 16px;
+    line-height: 125%;
+    font-weight: bold;
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: #000000;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 48px;
+    line-height: 125%;
+    font-weight: normal;
+    margin-top: 16px;
+    margin-bottom: 80px;
+}
+
+p i {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+p u {
+  text-decoration: underline;
+}
+
+a {
+    color: #80F0FF;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+a:visited {
+    color: #20BCFF;
+}
+
+a:hover {
+    color: #D8FAFF;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+@supports (-webkit-text-stroke: 2px #FFFFFF) {
+  h1 outline {
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: #000000;
+  }
+}
+
+/** Desktop classes **/
+
+@media (max-width: 736px)
