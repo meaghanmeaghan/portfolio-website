@@ -38,7 +38,7 @@ h1 {
     -webkit-text-fill-color: #000000;
 }
 
-p {
+h2 {
     font-family: 'Roboto Mono', monospace;
     font-size: 48px;
     line-height: 125%;
@@ -47,11 +47,20 @@ p {
     margin-bottom: 80px;
 }
 
-p i {
+h2 i {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: inherit;
   font-size: inherit;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+    line-height: 125%;
+    font-weight: normal;
+    margin-top: 16px;
+    margin-bottom: 80px;
 }
 
 p u {
